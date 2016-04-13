@@ -1,35 +1,9 @@
-# angular-seed — the seed for AngularJS apps
-
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
-You can use it to quickly bootstrap your angular webapp projects and dev environment for these
-projects.
-
-The seed contains AngularJS libraries, test libraries and a bunch of scripts all preconfigured for
-instant web development gratification. Just clone the repo (or download the zip/tarball), start up
-our (or yours) webserver and you are ready to develop and test your application.
-
-The seed app doesn't do much, just shows how to wire two controllers and views together. You can
-check it out by opening app/index.html in your browser (might not work file `file://` scheme in
-certain browsers, see note below).
-
-_Note: While angular is client-side-only technology and it's possible to create angular webapps that
-don't require a backend server at all, we recommend hosting the project files using a local
-webserver during development to avoid issues with security restrictions (sandbox) in browsers. The
-sandbox implementation varies between browsers, but quite often prevents things like cookies, xhr,
-etc to function properly when an html page is opened via `file://` scheme instead of `http://`._
-
-
-## How to use angular-seed
-
-Clone the angular-seed repository and start hacking...
-
-
 ### Running the app during development
 
 You can pick one of these options:
 
 * serve this repository with your webserver
-* install node.js and run `scripts/web-server.js`
+* install node.js , cd to app/ and run `../scripts/web-server.js`
 
 Then navigate your browser to `http://localhost:<port>/app/index.html` to see the app running in
 your browser.
@@ -52,9 +26,8 @@ reverse-proxying the backend server(s) and a webserver(s).
 
 ### Running unit tests
 
-We recommend using [jasmine](http://pivotal.github.com/jasmine/) and
-[Karma](http://karma-runner.github.io) for your unit tests/specs, but you are free
-to use whatever works for you.
+use [jasmine](http://pivotal.github.com/jasmine/) and
+[Karma](http://karma-runner.github.io) for your unit tests/specs
 
 Requires [node.js](http://nodejs.org/), Karma (`sudo npm install -g karma`) and a local
 or remote browser.
@@ -66,7 +39,7 @@ or remote browser.
 
 ### End to end testing
 
-We recommend using [protractor](https://github.com/angular/protractor) for end-to-end tests. It
+use [protractor](https://github.com/angular/protractor) for end-to-end tests. It
 uses native events and has special features for Angular applications.
 
 Requires a webserver, node.js + `./scripts/web-server.js` or your backend server that hosts the angular static files.
@@ -139,7 +112,3 @@ fetch the changes and merge them into your project with git.
         directivessSpec.js      --> specs for directives
         filtersSpec.js          --> specs for filters
         servicesSpec.js         --> specs for services
-
-## Contact
-
-For more information on AngularJS please check out http://angularjs.org/
